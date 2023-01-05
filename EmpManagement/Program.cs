@@ -25,6 +25,9 @@
             EmpWagePerMonth empWagePerMonth = new EmpWagePerMonth();
             empWagePerMonth.Display();
             Console.WriteLine("-------------------------");
+            //UC_6
+            EmpMaxHrs empMaxHrs = new EmpMaxHrs();
+            empMaxHrs.Display();
         }
     }
 }
