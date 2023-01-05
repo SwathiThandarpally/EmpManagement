@@ -21,6 +21,10 @@
             CaseStatement caseStatement = new CaseStatement();
             caseStatement.Display();
             Console.WriteLine("-------------------------");
+            //UC_5
+            EmpWagePerMonth empWagePerMonth = new EmpWagePerMonth();
+            empWagePerMonth.Display();
+            Console.WriteLine("-------------------------");
         }
     }
 }
