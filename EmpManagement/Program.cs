@@ -13,6 +13,9 @@
             EmployeeWage employeeWage = new EmployeeWage();
             employeeWage.FullTimeEmployeeWage();
             Console.WriteLine("-------------------------");
+            //UC_3
+            AddPartTime addPartTime = new AddPartTime();
+            addPartTime.PartTimeEmpWage();
         }
     }
 }
