@@ -16,6 +16,11 @@
             //UC_3
             AddPartTime addPartTime = new AddPartTime();
             addPartTime.PartTimeEmpWage();
+            Console.WriteLine("-------------------------");
+            //UC_4
+            CaseStatement caseStatement = new CaseStatement();
+            caseStatement.Display();
+            Console.WriteLine("-------------------------");
         }
     }
 }
