@@ -5,9 +5,13 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Displaying Employee Wage Computation Program");
-            //UseCase1
+            //UC_1
             EmployeeCheck.EmployeeAttandance();
             Console.ReadKey();
+            Console.WriteLine("-------------------------");
+            //UC_2
+            EmployeeWage employeeWage = new EmployeeWage();
+            employeeWage.FullTimeEmployeeWage();
             Console.WriteLine("-------------------------");
         }
     }
