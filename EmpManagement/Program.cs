@@ -33,6 +33,12 @@
             calculation.EmployeeAttendence();
             RefactorCode calculation2 = new RefactorCode();
             calculation2.EmpWageCalculation();
+            //UC_8
+            MultipleCompanyWage ComputeMultipleCompanies = new MultipleCompanyWage();
+            ComputeMultipleCompanies.ComputeEmpWage("Amazon", 20, 30, 40);
+            ComputeMultipleCompanies.ComputeEmpWage("DMart", 10, 15, 20);
+            ComputeMultipleCompanies.ComputeEmpWage("Vodafone", 5, 15, 20);
         }
     }
+    
 }
