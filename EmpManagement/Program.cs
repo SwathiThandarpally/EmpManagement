@@ -28,6 +28,11 @@
             //UC_6
             EmpMaxHrs empMaxHrs = new EmpMaxHrs();
             empMaxHrs.Display();
+            //UC_7
+            RefactorCode calculation = new RefactorCode();
+            calculation.EmployeeAttendence();
+            RefactorCode calculation2 = new RefactorCode();
+            calculation2.EmpWageCalculation();
         }
     }
 }
