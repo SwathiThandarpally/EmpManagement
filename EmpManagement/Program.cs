@@ -40,9 +40,16 @@
             //ComputeMultipleCompanies.ComputeEmpWage("Vodafone", 5, 15, 20);
 
             //UC_9
-            EachCompanyWage eachCompanyWage = new EachCompanyWage("Samsung", 50, 20,100);
-            eachCompanyWage.ComputeEmpWage();
-            eachCompanyWage.ToString();
+            //EachCompanyWage eachCompanyWage = new EachCompanyWage("Samsung", 50, 20,100);
+            //eachCompanyWage.ComputeEmpWage();
+            //eachCompanyWage.ToString();
+            Console.WriteLine("-------------------------------------------------");
+            //UC_10 
+            EmpWageManage empWageManage = new EmpWageManage();
+            empWageManage.addCompanyEmpWage("Dmart",12,4,25);
+            empWageManage.addCompanyEmpWage("Samsung",21,34,67);
+            empWageManage.computeEmpWage();
+
             
         }
     }
