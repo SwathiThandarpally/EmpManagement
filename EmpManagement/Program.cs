@@ -51,10 +51,21 @@
             empWageManage.computeEmpWage();
             Console.WriteLine("-------------------------------------------------");
             //UC_11
-            EmpWageBuilderArray empWage = new EmpWageBuilderArray();
-            empWage.addCompanyEmpWage("Dmart",12,3,4);
-            empWage.addCompanyEmpWage("Tata",10,5,8);
-            empWage.computeEmpWage();
+            //EmpWageBuilderArray empWage = new EmpWageBuilderArray();
+            //empWage.addCompanyEmpWage("Dmart",12,3,4);
+            //empWage.addCompanyEmpWage("Tata",10,5,8);
+            //empWage.computeEmpWage();
+            Console.WriteLine("-------------------------------------------------");
+            //UC_12
+            EmpWageBuilder empWageBuilder = new EmpWageBuilder();
+            empWageBuilder.addCompanyEmpWage("Samsung",3,6,9);
+            empWageBuilder.addCompanyEmpWage("Dmart", 12, 4, 25);
+            empWageBuilder.addCompanyEmpWage("Tata", 21, 34, 67);
+            empWageBuilder.computeEmpWage();
+            
+
+
+
 
         }
     }
